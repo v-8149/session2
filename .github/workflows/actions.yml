@@ -2,7 +2,7 @@ name: This is github action
 on: [push]
 jobs: 
  Echo: 
-    runs-on: Ubantu-latest
+    runs-on: Ubuntu-latest
     steps:
      - name: echo hello
        run: echo hello
